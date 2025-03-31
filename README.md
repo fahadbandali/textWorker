@@ -1,5 +1,20 @@
 # Application to play with Twilio's Text API and AI
 
+This application serves as a template for integrating Twilio's SMS API with OpenAI's GPT model. It allows users to send SMS messages and receive AI-generated responses based on the content of the messages.
+
+## Environment Variables
+
+Make sure to set the following environment variables in your `.env` file:
+
+- `NGROK_AUTH_TOKEN`: Your ngrok authentication token.
+- `APPLICATION_PORT`: The port on which the FastAPI application will run (default is 8000).
+- `OPENAI_API_KEY`: Your OpenAI API key.
+- `TWILIO_API_SID`: Your Twilio API SID.
+- `TWILIO_API_SECRET`: Your Twilio API secret.
+- `TWILIO_ACCOUNT_SID`: Your Twilio account SID.
+- `PHONE_NUMBER_FROM`: The Twilio phone number you are using to send messages.
+
+
 ## Installation
 
 1. **Clone the repository:**
